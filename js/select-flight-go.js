@@ -218,21 +218,21 @@ class UIFlights{
                                 <div class="slides">
                                     <div class="ticket-card">
                                         <div class="ticket-decoration bg-gray-soft">
-                                            <img src="./assets/media/l_vuela_ligero.png" width="50%">
+                                            <img src="../assets/media/l_vuela_ligero.png" width="50%">
                                             <p class="m-0 mt-3 tc-blue-2 fw-bold fs-2">$ ${precioLight} COP</p>
                                             <p class="m-0 mt-1 tc-blue-2 fs-6">*Por tramo, por pasajero</p>
                                         </div>
                                         <div class="mt-5 w-100 pl-1 pr-2 border-box">
                                             <div class="ticket-property">
                                                 <div class="d-flex flex-row align-items-center">
-                                                    <img src="./assets/media/tp_icon_1.png" class="mr-1" width="20px">
+                                                    <img src="../assets/media/tp_icon_1.png" class="mr-1" width="20px">
                                                     <p class="m-0 fw-bold fs-6 tc-blue-2">SMARTICKET</p>
                                                 </div>
                                                 <svg width="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1c355e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm-1.998 15.077l-3.79-3.585.92-.918 2.865 2.676 7.027-6.874.92.92z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>
                                             </div>
                                             <div class="ticket-property">
                                                 <div class="d-flex flex-row align-items-center">
-                                                    <img src="./assets/media/tp_icon_2.png" class="mr-1" width="20px">
+                                                    <img src="../assets/media/tp_icon_2.png" class="mr-1" width="20px">
                                                     <p class="m-0 fw-bold fs-6 tc-blue-2">Mochila o artículo personal</p>
                                                 </div>
                                                 <svg width="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1c355e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm-1.998 15.077l-3.79-3.585.92-.918 2.865 2.676 7.027-6.874.92.92z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>
@@ -247,42 +247,42 @@ class UIFlights{
                                     </div>
                                     <div class="ticket-card">
                                         <div class="ticket-decoration bg-cian">
-                                            <img src="./assets/media/l_pack_smart.png" width="50%">
+                                            <img src="../assets/media/l_pack_smart.png" width="50%">
                                             <p class="m-0 mt-3 fw-bold fs-2">$ ${precioSmart} COP</p>
                                             <p class="m-0 mt-1 fs-6">*Por tramo, por pasajero</p>
                                         </div>
                                         <div class="mt-5 w-100 pl-1 pr-2 border-box">
                                             <div class="ticket-property">
                                                 <div class="d-flex flex-row align-items-center">
-                                                    <img src="./assets/media/tp_icon_1.png" class="mr-1" width="20px">
+                                                    <img src="../assets/media/tp_icon_1.png" class="mr-1" width="20px">
                                                     <p class="m-0 fw-bold fs-6 tc-blue-2">SMARTICKET</p>
                                                 </div>
                                                 <svg width="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1c355e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm-1.998 15.077l-3.79-3.585.92-.918 2.865 2.676 7.027-6.874.92.92z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>
                                             </div>
                                             <div class="ticket-property">
                                                 <div class="d-flex flex-row align-items-center">
-                                                    <img src="./assets/media/tp_icon_2.png" class="mr-1" width="20px">
+                                                    <img src="../assets/media/tp_icon_2.png" class="mr-1" width="20px">
                                                     <p class="m-0 fw-bold fs-6 tc-blue-2">Mochila o artículo personal</p>
                                                 </div>
                                                 <svg width="20px"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1c355e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm-1.998 15.077l-3.79-3.585.92-.918 2.865 2.676 7.027-6.874.92.92z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>
                                             </div>
                                             <div class="ticket-property">
                                                 <div class="d-flex flex-row align-items-center">
-                                                    <img src="./assets/media/tp_icon_3.png" class="mr-1" width="20px">
+                                                    <img src="../assets/media/tp_icon_3.png" class="mr-1" width="20px">
                                                     <p class="m-0 fw-bold fs-6 tc-blue-2">FlexiSMART</p>
                                                 </div>
                                                 <svg width="20px"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1c355e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm-1.998 15.077l-3.79-3.585.92-.918 2.865 2.676 7.027-6.874.92.92z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>
                                             </div>
                                             <div class="ticket-property">
                                                 <div class="d-flex flex-row align-items-center">
-                                                    <img src="./assets/media/tp_icon_4.png" class="mr-1" width="20px">
+                                                    <img src="../assets/media/tp_icon_4.png" class="mr-1" width="20px">
                                                     <p class="m-0 fw-bold fs-6 tc-blue-2">Equipaje de Mano y Facturado</p>
                                                 </div>
                                                 <svg width="20px"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1c355e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm-1.998 15.077l-3.79-3.585.92-.918 2.865 2.676 7.027-6.874.92.92z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>
                                             </div>
                                             <div class="ticket-property">
                                                 <div class="d-flex flex-row align-items-center">
-                                                    <img src="./assets/media/tp_icon_5.png" class="mr-1" width="20px">
+                                                    <img src="../assets/media/tp_icon_5.png" class="mr-1" width="20px">
                                                     <p class="m-0 fw-bold fs-6 tc-blue-2">Embarque prioritario</p>
                                                 </div>
                                                 <svg width="20px"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1c355e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm-1.998 15.077l-3.79-3.585.92-.918 2.865 2.676 7.027-6.874.92.92z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>
@@ -297,49 +297,49 @@ class UIFlights{
                                     </div>
                                     <div class="ticket-card">
                                         <div class="ticket-decoration bg-blue-2">
-                                            <img src="./assets/media/l_pack_full.png" width="50%">
+                                            <img src="../assets/media/l_pack_full.png" width="50%">
                                             <p class="m-0 mt-3 fw-bold fs-2">$ ${precioFull} COP</p>
                                             <p class="m-0 mt-1 fs-6">*Por tramo, por pasajero</p>
                                         </div>
                                         <div class="mt-5 w-100 pl-1 pr-2 border-box">
                                             <div class="ticket-property">
                                                 <div class="d-flex flex-row align-items-center">
-                                                    <img src="./assets/media/tp_icon_1.png" class="mr-1" width="20px">
+                                                    <img src="../assets/media/tp_icon_1.png" class="mr-1" width="20px">
                                                     <p class="m-0 fw-bold fs-6 tc-blue-2">SMARTICKET</p>
                                                 </div>
                                                 <svg width="20px"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1c355e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm-1.998 15.077l-3.79-3.585.92-.918 2.865 2.676 7.027-6.874.92.92z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>
                                             </div>
                                             <div class="ticket-property">
                                                 <div class="d-flex flex-row align-items-center">
-                                                    <img src="./assets/media/tp_icon_2.png" class="mr-1" width="20px">
+                                                    <img src="../assets/media/tp_icon_2.png" class="mr-1" width="20px">
                                                     <p class="m-0 fw-bold fs-6 tc-blue-2">Mochila o artículo personal</p>
                                                 </div>
                                                 <svg width="20px"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1c355e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm-1.998 15.077l-3.79-3.585.92-.918 2.865 2.676 7.027-6.874.92.92z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>
                                             </div>
                                             <div class="ticket-property">
                                                 <div class="d-flex flex-row align-items-center">
-                                                    <img src="./assets/media/tp_icon_3.png" class="mr-1" width="20px">
+                                                    <img src="../assets/media/tp_icon_3.png" class="mr-1" width="20px">
                                                     <p class="m-0 fw-bold fs-6 tc-blue-2">FlexiSMART</p>
                                                 </div>
                                                 <svg width="20px"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1c355e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm-1.998 15.077l-3.79-3.585.92-.918 2.865 2.676 7.027-6.874.92.92z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>
                                             </div>
                                             <div class="ticket-property">
                                                 <div class="d-flex flex-row align-items-center">
-                                                    <img src="./assets/media/tp_icon_4.png" class="mr-1" width="20px">
+                                                    <img src="../assets/media/tp_icon_4.png" class="mr-1" width="20px">
                                                     <p class="m-0 fw-bold fs-6 tc-blue-2">Equipaje de Mano y Facturado</p>
                                                 </div>
                                                 <svg width="20px"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1c355e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm-1.998 15.077l-3.79-3.585.92-.918 2.865 2.676 7.027-6.874.92.92z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>
                                             </div>
                                             <div class="ticket-property">
                                                 <div class="d-flex flex-row align-items-center">
-                                                    <img src="./assets/media/tp_icon_5.png" class="mr-1" width="20px">
+                                                    <img src="../assets/media/tp_icon_5.png" class="mr-1" width="20px">
                                                     <p class="m-0 fw-bold fs-6 tc-blue-2">Embarque prioritario</p>
                                                 </div>
                                                 <svg width="20px"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1c355e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm-1.998 15.077l-3.79-3.585.92-.918 2.865 2.676 7.027-6.874.92.92z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>
                                             </div>
                                             <div class="ticket-property">
                                                 <div class="d-flex flex-row align-items-center">
-                                                    <img src="./assets/media/tp_icon_8.png" class="mr-1" width="20px">
+                                                    <img src="../assets/media/tp_icon_8.png" class="mr-1" width="20px">
                                                     <p class="m-0 fw-bold fs-6 tc-blue-2">Impresión de tarjeta de embarque</p>
                                                 </div>
                                                 <svg width="20px"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1c355e"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.5 2.2a10.3 10.3 0 1 0 10.3 10.3A10.299 10.299 0 0 0 12.5 2.2zm-1.998 15.077l-3.79-3.585.92-.918 2.865 2.676 7.027-6.874.92.92z"></path><path fill="none" d="M0 0h24v24H0z"></path></g></svg>
