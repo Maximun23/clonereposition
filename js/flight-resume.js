@@ -165,21 +165,21 @@ const showTicketResume = (contTicket, flightInfo, flightType)=>{
         if(flightInfo.origin.ticket_type === 'light'){
             ticketLabel = `
                 <div class="bg-gray-2 p-2 mt-2 tc-white rounded-10 d-flex justify-space-between align-items-center flex-row">
-                    <img src="./assets/media/l_vuela_ligero.png" width="100px">
+                    <img src="../assets/media/l_vuela_ligero.png" width="100px">
                     <p class="fs-1 m-0">${totalLight}</p>
                 </div>
             `;
         }else if(flightInfo.origin.ticket_type === 'smart'){
             ticketLabel = `
                 <div class="bg-cian p-2 mt-2 rounded-10 d-flex justify-space-between align-items-center flex-row">
-                    <img src="./assets/media/l_pack_smart.png" width="150px">
+                    <img src="../assets/media/l_pack_smart.png" width="150px">
                     <p class="tc-white fs-1 m-0">${totalSmart}</p>
                 </div>
             `;
         }else if(flightInfo.origin.ticket_type === 'full'){
             ticketLabel = `
                 <div class="bg-blue-2 p-2 mt-2 rounded-10 d-flex justify-space-between align-items-center flex-row">
-                    <img src="./assets/media/l_pack_full.png" width="150px">
+                    <img src="../assets/media/l_pack_full.png" width="150px">
                     <p class="tc-white fs-1 m-0">${totalFull}</p>
                 </div>
             `;
@@ -219,21 +219,21 @@ const showTicketResume = (contTicket, flightInfo, flightType)=>{
         if(flightInfo.destination.ticket_type === 'light'){
             ticketLabel = `
                 <div class="bg-gray-2 p-2 mt-2 tc-white rounded-10 d-flex justify-space-between align-items-center flex-row">
-                    <img src="./assets/media/l_vuela_ligero.png" width="100px">
+                    <img src="../assets/media/l_vuela_ligero.png" width="100px">
                     <p class="fs-1 m-0">${totalLight}</p>
                 </div>
             `;
         }else if(flightInfo.destination.ticket_type === 'smart'){
             ticketLabel = `
                 <div class="bg-cian p-2 mt-2 rounded-10 d-flex justify-space-between align-items-center flex-row">
-                    <img src="./assets/media/l_pack_smart.png" width="150px">
+                    <img src="../assets/media/l_pack_smart.png" width="150px">
                     <p class="tc-white fs-1 m-0">${totalSmart}</p>
                 </div>
             `;
         }else if(flightInfo.destination.ticket_type === 'full'){
             ticketLabel = `
                 <div class="bg-blue-2 p-2 mt-2 rounded-10 d-flex justify-space-between align-items-center flex-row">
-                    <img src="./assets/media/l_pack_full.png" width="150px">
+                    <img src="../assets/media/l_pack_full.png" width="150px">
                     <p class="tc-white fs-1 m-0">${totalFull}</p>
                 </div>
             `;
